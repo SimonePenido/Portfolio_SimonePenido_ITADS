@@ -119,7 +119,6 @@ section {
     width: 100%;
     height: 70vh;
     position: center center;
-
     }
 
 #slider img {
@@ -150,15 +149,11 @@ section {
 
 #sobre_mim {
     background-image: url(imagens/sobremim.png);
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    width: auto;
-    height: 100%;
     display: flex;
-    align-items: center top;
-    justify-content: center top;
-    background-color: initial;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
 }
 
 .card_spotify {
@@ -203,24 +198,6 @@ section {
     margin-top: 1.7em;
 }
 
-#inicio {
-    background-image: url(imagens/fundo7.png);
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    width: auto;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#inicio ul,
-li {
-    text-decoration: none;
-    list-style-type: square;
-    margin: 1em 2em;
-}
 
 .article span {
     font-size: 2.2rem;
@@ -336,7 +313,6 @@ li {
     padding-bottom: 8px;
     margin-bottom: 5px;
     margin-top: 0.3px;
-    border-bottom: 2px solid #590c2196;
     color: #8C1434;
     font-size: 1.2em;
     letter-spacing: 0.8px;
@@ -482,7 +458,7 @@ h2 {
 }
 
 .fundo_article {
-    background-image: url(imagens/fundo9.png);
+    background-image: url(imagens/fundo3.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -490,8 +466,6 @@ h2 {
     align-items: center;
     justify-content: center;
 }
-
-
 
 
 .page-content {
@@ -561,7 +535,7 @@ h2 {
     width: 100%;
     height: 200%;
     pointer-events: none;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.01) 11.7%, rgba(0, 0, 0, 0.03) 22.1%, rgba(0, 0, 0, 0.07) 31.2%, rgba(0, 0, 0, 0.12) 39.4%, rgba(0, 0, 0, 0.18) 46.6%, rgba(0, 0, 0, 0.24) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.39) 64.3%, rgba(0, 0, 0, 0.46) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.60) 78.8%, rgba(0, 0, 0, 0.66) 83.6%, rgba(0, 0, 0, 0.72) 88.7%, rgba(0, 0, 0, 0.76) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.699) 0%, rgba(0, 0, 0, 0.685) 11.7%, rgba(0, 0, 0, 0.695) 22.1%, rgba(0, 0, 0, 0.700) 31.2%, rgba(0, 0, 0, 0.715) 39.4%, rgba(0, 0, 0, 0.745) 46.6%, rgba(0, 0, 0, 0.765) 53.1%, rgba(0, 0, 0, 0.780) 58.9%, rgba(0, 0, 0, 0.790) 64.3%, rgba(0, 0, 0, 0.800) 69.3%, rgba(0, 0, 0, 0.820) 74.1%, rgba(0, 0, 0, 0.840) 78.8%, rgba(0, 0, 0, 0.860) 83.6%, rgba(0, 0, 0, 0.880) 88.7%, rgba(0, 0, 0, 0.900) 94.1%, rgba(0, 0, 0, 0.950) 100%);
     transform: translateY(-50%);
     transition: transform calc(var(--d) * 2) var(--e);
 }
@@ -757,12 +731,15 @@ h2 {
 }
 
 #depoimento {
-    background-image: url(imagens/sobre.png);
+    background-image: url(imagens/sobremim.png);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    background-color: initial;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    }
 
 .trailer {
     background-color: var(--cor-menu);
@@ -945,8 +922,6 @@ footer {
     box-shadow: 0 0 5px 3px #590C21;
 }
 
-
-
 .container_footer .contactInfo {
     width: 50%;
     display: flex;
@@ -973,7 +948,7 @@ footer {
 
 .icon {
     color: var(--cor-fucsia);
-    font-size: 1.10em;
+    font-size: 1.50em;
 }
 
 .container_footer .contactInfo .box:hover .icon {
@@ -1046,7 +1021,13 @@ footer {
     position: relative;
     width: 100%;
     margin-top: 36px;
+    border-radius: 10px;
+    margin-bottom: 1em;
     }
+
+.maps iframe {
+    box-shadow: 0 0 5px 3px #590C21;
+}
 
 .container_footer .contactForm {
     position: relative;
@@ -1057,7 +1038,6 @@ footer {
     border-radius: 10px;
 }
 
-s
 
 .container_footer .contactForm .inputBox {
     position: relative;
@@ -1207,6 +1187,7 @@ s
         flex-direction: center;
         justify-content: center;
         align-items: center;
+        margin-bottom: 1em;
     }
 }
 
