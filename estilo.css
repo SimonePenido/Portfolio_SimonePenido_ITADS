@@ -222,15 +222,15 @@ li {
 
 .article span {
     font-size: 2.2rem;
-    color: #ec467e;
-    -webkit-text-stroke: 0.03125em #FFF;
-    text-stroke: 0.03125em #FFF;
+    color: #fa98b9;
+    -webkit-text-stroke: 0.03125em #f8a5a5;
+    text-stroke: 0.03125em #f3bbbb;
     text-shadow:
-        0 0px 10px #e992a5,
-        0 0px 20px #eeaab7,
-        0 0px 40px #d6a0ac,
-        0 0px 60px #c77a89ad,
-        0 0px 80px #faeff15b;
+        0 0px 10px #eb0738,
+        0 0px 20px #b10b29,
+        0 0px 40px #a10b2b,
+        0 0px 60px #630719ad,
+        0 0px 80px #7a041a2f;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
