@@ -870,6 +870,7 @@ h2 {
     width: 2em;
 }
 
+
 footer {
     background-image: url(imagens/footer1.png);
     background-size: cover;
@@ -902,7 +903,12 @@ footer {
     text-align: center;
 }
 
-
+.contact .content_footer h2 {
+    font-size: 2.1rem;
+    color: #e91e63;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
 .container_footer {
     width: 100%;
@@ -911,15 +917,6 @@ footer {
     align-items: center;
     gap: 10px;
     margin-top: 20px;
-}
-
-.contactInfo img {
-    width: 100%;
-    max-width: 450px;
-    height: auto;
-    border-radius: 10px;
-    filter: grayscale(0.5);
-    box-shadow: 0 0 5px 3px #590C21;
 }
 
 .container_footer .contactInfo {
@@ -1021,9 +1018,7 @@ footer {
     position: relative;
     width: 100%;
     margin-top: 36px;
-    border-radius: 10px;
-    margin-bottom: 1em;
-    }
+}
 
 .maps iframe {
     box-shadow: 0 0 5px 3px #590C21;
@@ -1038,11 +1033,28 @@ footer {
     border-radius: 10px;
 }
 
+.container_footer .contactForm h2 {
+    font-size: 1.5rem;
+    color: #e91e63;
+    font-weight: 500;
+    text-transform: uppercase;
+}
 
 .container_footer .contactForm .inputBox {
     position: relative;
     width: 100%;
     margin-top: 1.25em;
+}
+
+.content_footer h1 {
+    background-color: #e91e62b7;
+    padding: 0.625em;
+    margin-top: 0;
+    border-radius: 10px;
+    letter-spacing: .09em;
+    font-size: 1.6rem;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .container_footer .contactForm .inputBox input,
@@ -1129,7 +1141,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 18px;
+    height: 3.125em;
     aspect-ratio: 1 / 1.25;
 }
 
@@ -1138,7 +1150,7 @@ footer {
 }
 
 .section_icons:hover {
-    width: 4em;
+    width: 8.75em;
     transition: width 300ms ease-in-out 0s, background-color 100ms linear 0s;
 }
 
@@ -1187,7 +1199,6 @@ footer {
         flex-direction: center;
         justify-content: center;
         align-items: center;
-        margin-bottom: 1em;
     }
 }
 
