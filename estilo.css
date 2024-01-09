@@ -1129,7 +1129,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 3.125em;
+    height: 18px;
     aspect-ratio: 1 / 1.25;
 }
 
@@ -1138,7 +1138,7 @@ footer {
 }
 
 .section_icons:hover {
-    width: 7em;
+    width: 4em;
     transition: width 300ms ease-in-out 0s, background-color 100ms linear 0s;
 }
 
